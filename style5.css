@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('img/zbg3.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+#navbar::before{
+content: "";
+background-color: rgb(137 60 60);
+position: absolute;
+top:0px;
+left:0px;
+height: 100%;
+width:100%;
+z-index: -1;
+/* opacity: 0.4; */
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 1px 35px;
+}
+
+#logo img{
+    height: 45px;
+    margin: 3px 6px;
+    border: 2px solid rgb(137 60 60);
+    border-radius: 19px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.a1{
+    /* border: 2px solid red; */
+    color: rgb(249, 249, 248);
+    width: 48%;
+    margin: 25px auto;
+    padding: 4px;
+    /* font-weight: bold; */
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* css for cutomer details form */
+.box{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    width: 1400px;
+    margin: auto;
+    background-color: white;
+}
+.container{
+    box-sizing: border-box;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+.container1{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: rgb(3, 3, 3);
+}
+.container1 input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.inputform{
+    /* align-items: stretch; */
+    margin: auto;
+    width: 15%;
+}
+.inputform input{
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(228, 157, 157);
+    border: 2px solid rgb(232, 99, 99);
+    border-radius: 6px;
+    font-weight: bold;
+}
+.flyingto{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    padding: 10px
+}
+.flyingto input{
+    width: 350px;
+    height: 40px;
+    margin-right: 35px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.travelling{
+    width: 7%;
+    margin: auto;
+}

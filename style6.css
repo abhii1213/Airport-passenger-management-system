@@ -1,0 +1,44 @@
+/* css for ticket */
+.one, .two{
+    /* background-color:rgb(243, 233, 218); */
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+.body{
+    border: 6px solid black;
+    border-radius: 8px;
+}
+.travelling{
+    width: 60%;
+    margin: auto;
+}
+.badges{
+    /* border: 2px solid red; */
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/* css for all_booked_tickets.php */
+.one1{
+    /* border: 3px solid rgb(10, 10, 10); */
+    margin: 18px;
+    padding: 5px;
+}
+.one11{
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    background-color: rgb(255 249 239);
+    margin: 45px 45px 100px 45px;
+    padding: 25px;
+}
+.serialnumber{
+    font-size: 25px;
+    font-weight: bold;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 7px;
+}
